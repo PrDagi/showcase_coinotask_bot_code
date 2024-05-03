@@ -53,14 +53,7 @@ async def register_task_enrolling(task_code,
 
 
 async def add_task_reward_to_wallet(reward_amount, tg_user_id):
-  balance_update_case = case(
-      (User.tg_user_id
-       == "5341916193", reward_amount * 0.06 + User.duko_balance),
-      (User.tg_user_id == tg_user_id, reward_amount + User.duko_balance),
-  )
-
-  stmt = (update(User).where(User.tg_user_id.in_(
-      ["5341916193", tg_user_id])).values(duko_balance=balance_update_case))
+  stmt = (update(User).where(User.tg_user_id == tg_user_id])).values(duko_balance=reward_amount + User.duko_balance))
 
   # Execute the update statement
   with DbSession() as session:
