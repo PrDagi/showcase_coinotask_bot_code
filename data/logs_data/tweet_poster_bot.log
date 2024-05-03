@@ -1,0 +1,32 @@
+2024-04-10 16:33:55,686 [TweetPosterBot/tweet_poster_bot.py:53]: (ERROR)>>> tweet to picture api req got response code:400
+NoneType: None
+2024-04-10 20:08:22,926 [TweetPosterBot/tweet_poster_bot.py:74]: (WARNING)>>> Attempt 1 failed: __get_auth_token() missing 1 required positional argument: 'request_session'
+2024-04-10 20:08:27,878 [TweetPosterBot/tweet_poster_bot.py:76]: (WARNING)>>> Retrying...
+2024-04-10 20:08:28,879 [TweetPosterBot/tweet_poster_bot.py:74]: (WARNING)>>> Attempt 2 failed: __get_auth_token() missing 1 required positional argument: 'request_session'
+2024-04-10 20:08:28,879 [TweetPosterBot/tweet_poster_bot.py:76]: (WARNING)>>> Retrying...
+2024-04-10 20:08:29,881 [TweetPosterBot/tweet_poster_bot.py:74]: (WARNING)>>> Attempt 3 failed: __get_auth_token() missing 1 required positional argument: 'request_session'
+2024-04-10 20:08:29,881 [TweetPosterBot/tweet_poster_bot.py:78]: (ERROR)>>> tweet to picture api req : Maximum number of retries reached
+Traceback (most recent call last):
+  File "/home/pr_dagi/projects/upwork_projects/earn_duko_token_telegram_bot/src/tweet_poster_bot.py", line 59, in tweet_to_picture
+    access_token = await __get_auth_token()
+TypeError: __get_auth_token() missing 1 required positional argument: 'request_session'
+2024-04-10 20:09:19,159 [TweetPosterBot/tweet_poster_bot.py:74]: (WARNING)>>> Attempt 1 failed: 500, message='Internal Server Error', url=URL('https://10015.io/api/capture-tweet')
+2024-04-10 20:09:19,159 [TweetPosterBot/tweet_poster_bot.py:76]: (WARNING)>>> Retrying...
+2024-04-10 20:09:19,897 [TweetPosterBot/tweet_poster_bot.py:68]: (ERROR)>>> tweet to picture api req got response code:400
+NoneType: None
+2024-04-10 20:10:48,046 [TweetPosterBot/tweet_poster_bot.py:75]: (WARNING)>>> Attempt 1 failed: 500, message='Internal Server Error', url=URL('https://10015.io/api/capture-tweet')
+2024-04-10 20:10:48,047 [TweetPosterBot/tweet_poster_bot.py:77]: (WARNING)>>> Retrying...
+2024-04-10 20:10:49,755 [TweetPosterBot/tweet_poster_bot.py:75]: (WARNING)>>> Attempt 2 failed: 500, message='Internal Server Error', url=URL('https://10015.io/api/capture-tweet')
+2024-04-10 20:10:49,755 [TweetPosterBot/tweet_poster_bot.py:77]: (WARNING)>>> Retrying...
+2024-04-10 20:10:50,510 [TweetPosterBot/tweet_poster_bot.py:69]: (ERROR)>>> tweet to picture api req got response code:400
+NoneType: None
+2024-04-10 20:11:53,235 [TweetPosterBot/tweet_poster_bot.py:76]: (WARNING)>>> Attempt 1 failed: 500, message='Internal Server Error', url=URL('https://10015.io/api/capture-tweet')
+2024-04-10 20:11:53,236 [TweetPosterBot/tweet_poster_bot.py:78]: (WARNING)>>> Retrying...
+2024-04-10 20:11:54,970 [TweetPosterBot/tweet_poster_bot.py:76]: (WARNING)>>> Attempt 2 failed: 500, message='Internal Server Error', url=URL('https://10015.io/api/capture-tweet')
+2024-04-10 20:11:54,971 [TweetPosterBot/tweet_poster_bot.py:78]: (WARNING)>>> Retrying...
+2024-04-10 20:11:55,699 [TweetPosterBot/tweet_poster_bot.py:70]: (ERROR)>>> tweet to picture api req got response code:400
+NoneType: None
+2024-04-10 20:13:19,630 [TweetPosterBot/tweet_poster_bot.py:70]: (ERROR)>>> tweet to picture api req got response code:400
+NoneType: None
+2024-04-10 20:17:08,442 [TweetPosterBot/tweet_poster_bot.py:71]: (ERROR)>>> tweet to picture api req got response code:400
+NoneType: None

@@ -1,0 +1,1 @@
+2024-04-09 10:35:12,809 [xAuthGenerator/x_auth_generator_bot.py:52]: (ERROR)>>> error occurred: HTTPSConnectionPool(host='twitvd.com', port=443): Max retries exceeded with url: /twuserid.php?username=PrjoJ61075 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7c92b7b31a80>, 'Connection to twitvd.com timed out. (connect timeout=None)'))
